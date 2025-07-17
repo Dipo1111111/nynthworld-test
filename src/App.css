@@ -1,0 +1,60 @@
+/* Nynth World Frontend Styles */
+@import "tailwindcss";
+
+
+:root {
+  --font-inter: 'Inter', sans-serif;
+}
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  font-family: 'Inter', sans-serif;
+}
+
+#root {
+  font-family: 'Inter', sans-serif;
+}
+
+.Home {
+  @apply min-h-screen bg-white text-black font-sans
+}
+
+/* Primary Button */
+.btn-primary {
+  @apply bg-black text-white py-3 px-6 hover:rounded transition-colors duration-200 font-medium focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2;
+}
+
+/* Secondary Button */
+.btn-secondary {
+  @apply bg-white text-black border border-black py-3 px-6 hover:bg-gray-100 transition-colors duration-200 font-medium focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2;
+}
+
+/* Danger Button */
+.btn-danger {
+  @apply text-red-600 hover:text-red-800 transition-colors duration-200;
+}
+
+/* Full Width Button */
+.btn-full {
+  @apply w-full;
+}
+
+/* Quantity Button */
+.btn-quantity {
+  @apply px-3 py-1 border border-gray-300 hover:bg-gray-100 transition-colors duration-200;
+}
+
+/* Icon Button */
+.btn-icon {
+  @apply p-2 hover:bg-gray-100 rounded-full transition-colors duration-200;
+}
+
