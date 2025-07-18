@@ -14,7 +14,7 @@ const NynthWorldStore = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <ProductCard
               id="truqha-9"
-              image="/public/assets/products/truqha_blue.png"
+              image="/assets/products/truqha_blue.png"
               name="TRUQHA 9 COLLECTION"
               price="₦6999.99 NGN"
             />
